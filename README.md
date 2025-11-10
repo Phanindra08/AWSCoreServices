@@ -81,6 +81,6 @@ With the data cataloged, navigated to the Amazon Athena service. Set the query r
 To display the query results, launched a `t3.micro` EC2 instance. Used the `EC2-Athena-Dashboard-Role` and configured the security group to allow SSH (port 22) and HTTP access on port 5000. After connecting via SSH, installed Python, Flask, and Boto3. Configured and ran the `app.py` script, which starts a Flask web server. The server executes the Athena queries in real-time and renders the results in a web browser.
 
 ### Output Screenshots:
-<img width="780" height="620" alt="FinalWebpagePhoto1" src="https://github.com/user-attachments/assets/9ce5477d-bac4-4610-a6d6-318e33b899bd" />
+<img width="780" height="620" alt="FinalWebpagePhoto1" src="https://github.com/user-attachments/assets/9ce5477d-bac4-4610-a6d6-318e33b899bd" /> <br >
 
 <img width="780" height="620" alt="FinalWebpagePhoto2" src="https://github.com/user-attachments/assets/08d4875b-c26e-4ce7-89f3-1fb18dd816c3" />
